@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StickerPop</string>
+    <string name="subtitle">Your floating stickers</string>
+    <string name="missing_permission">⚠️ Missing overlay permission</string>
+    <string name="permission_description">To make stickers float over other apps, you need to grant this permission.</string>
+    <string name="grant_permission">Grant permission</string>
+    <string name="delete">Delete</string>
+    <string name="size_px">%1$dpx</string>
+</resources>

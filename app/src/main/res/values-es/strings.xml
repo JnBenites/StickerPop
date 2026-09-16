@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StickerPop</string>
+    <string name="subtitle">Tus stickers flotantes</string>
+    <string name="missing_permission">⚠️ Falta el permiso de overlay</string>
+    <string name="permission_description">Para que los stickers floten sobre otras apps, necesitas conceder este permiso.</string>
+    <string name="grant_permission">Conceder permiso</string>
+    <string name="delete">Borrar</string>
+    <string name="size_px">%1$dpx</string>
+</resources>
