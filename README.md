@@ -30,3 +30,15 @@ Android app that displays animated stickers floating over any app.
 1. Clone the repository:
    ```bash
    git clone https://github.com/JnBenites/StickerPop.git
+2. Open the project in Android Studio:
+3. Build and run on your device (Android 8.0+)
+
+## Translations
+Help translate StickerPop on [Weblate](https://hosted.weblate.org/projects/stickerpop/).
+
+[![Translation status](https://hosted.weblate.org/widget/stickerpop/stickerpop/svg-badge.svg)](https://hosted.weblate.org/engage/stickerpop/)
+
+<a href="https://hosted.weblate.org/engage/stickerpop/"><img src="https://hosted.weblate.org/widget/stickerpop/svg-badge.svg" alt="Estado de la traducción"></a>
+
+## Installation
+This project is licensed under the GNU General Public License v3.0. See the LICENSE file for details.
