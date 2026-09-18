@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="subtitle">フローティングステッカー</string>
+    <string name="app_name">ステッカーポップ</string>
+    <string name="missing_permission">⚠️ オーバーレイ権限が不足しています</string>
+    <string name="permission_description">他のアプリの上にステッカーを浮かせて表示するには、この権限を許可する必要があります。</string>
+    <string name="grant_permission">許可を与える</string>
+    <string name="delete">消去</string>
+    <string name="size_px">%1$dpx</string>
+</resources>

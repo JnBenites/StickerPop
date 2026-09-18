@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">StickerPop</string>
+    <string name="subtitle">Твои плавающие стикеры</string>
+    <string name="missing_permission">⚠️ Отсутствует разрешение на наложение</string>
+    <string name="permission_description">Чтобы стикеры отображались поверх других приложений, необходимо предоставить это разрешение.</string>
+    <string name="grant_permission">Предоставить разрешение</string>
+    <string name="delete">Удалить</string>
+    <string name="size_px">%1$dpx</string>
 </resources>
