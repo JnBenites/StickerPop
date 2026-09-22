@@ -13,13 +13,10 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Preparar Gradle
-        working-directory: StickerPop
         run: chmod +x ./gradlew
 
       - name: Compilar APK
-        working-directory: StickerPop
         run: ./gradlew assembleDebug
 
       - name: Buscar APK
-        working-directory: StickerPop
         run: find app/build/outputs -type f -name "*.apk"
