@@ -1,4 +1,4 @@
-name: Build StickerPop APK
+name: Build StickerPop APK 1
 
 on:
   push:
