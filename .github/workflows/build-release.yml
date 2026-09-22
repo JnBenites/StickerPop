@@ -1,0 +1,24 @@
+name: Build StickerPop APK
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: self-hosted
+
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+
+      - name: Ver proyecto
+        run: |
+          pwd
+          ls -la
+          find . -maxdepth 2 -type f | sort
+
+      - name: Dar permisos a Gradle
+        run: chmod +x ./gradlew
+
+      - name: Compilar APK
+        run: ./gradlew assembleDebug
