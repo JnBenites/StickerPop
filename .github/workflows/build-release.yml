@@ -1,4 +1,4 @@
-name: Build StickerPop APK 1
+name: Build StickerPop APK
 
 on:
   push:
@@ -12,14 +12,14 @@ jobs:
       - name: Descargar código
         uses: actions/checkout@v4
 
-      - name: Ver proyecto
-        run: |
-          pwd
-          ls -la
-          find . -maxdepth 2 -type f | sort
-
-      - name: Dar permisos a Gradle
+      - name: Preparar Gradle
+        working-directory: StickerPop
         run: chmod +x ./gradlew
 
       - name: Compilar APK
+        working-directory: StickerPop
         run: ./gradlew assembleDebug
+
+      - name: Buscar APK
+        working-directory: StickerPop
+        run: find app/build/outputs -type f -name "*.apk"
