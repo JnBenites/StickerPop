@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">StickerPop</string>
+    <string name="subtitle">Ujuvad kleepsud sinu telefonis või tahvlis</string>
+    <string name="missing_permission">⚠️ Ülekatte kasutamise õigused on puudu</string>
+    <string name="permission_description">Et kleepsud saaks teiste rakenduste kohal hõljuda/ujuda, pead lubama vastavad õigused.</string>
+    <string name="grant_permission">Anna vastavad õigused</string>
+    <string name="delete">Kustuta</string>
+    <string name="size_px">%1$d pikslit</string>
 </resources>
