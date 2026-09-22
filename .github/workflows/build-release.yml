@@ -1,4 +1,4 @@
-name: Build StickerPop APK TEST
+name: Build StickerPop APK TEST 1
 
 on:
   push:
